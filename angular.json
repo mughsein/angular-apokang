@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "node_modules/bootstrap/scss/bootstrap.scss",
               "src/assets/scss/nidcert-dashboard.scss",
               "node_modules/ngx-toastr/toastr.css"
@@ -93,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css",
               "src/assets/sass/nidcert-dashboard.scss"
             ],

@@ -19,17 +19,16 @@
         <h5 style="font-size: 30px;" class="card-title"><strong>Calculate your zakat</strong></h5>
       </div>
       <div class="card-body ">
-        <form class="example-form">
-          <mat-form-field class="example-full-width">
-            <mat-label>Favorite food</mat-label>
-            <input matInput placeholder="Ex. Pizza" value="Sushi">
-          </mat-form-field>
-
-          <mat-form-field class="example-full-width">
-            <mat-label>Leave a comment</mat-label>
-            <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+        <form class="example-form" style="font-size: 20px;">
+          <mat-form-field [style.width.%]="100" [style.padding-right.%]="2" [style.padding-left.%]="2"
+            appearance="outline">
+            <mat-label>How much Bitcoin do you own?</mat-label>
+            <input matInput placeholder="How much Bitcoin do you own?" autocomplete="off" type="number">
+            <!--<mat-icon matSuffix>sentiment_very_satisfied</mat-icon>-->
           </mat-form-field>
         </form>
+
+
 
       </div>
       <div class="card-footer ">
